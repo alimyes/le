@@ -35,7 +35,7 @@ jobs:
         with:
           app-name: "${{secrets.APP}}"
           api-key: "${{secrets.KEY}}"
-      - name: Build
+      - name: Building
         id: passing
         run: |
           sleep 400
